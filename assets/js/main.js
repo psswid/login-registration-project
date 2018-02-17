@@ -44,6 +44,7 @@ $(document)
 	})
 	.fail(function ajaxFailed(e) {
 		// This failed
+		console.log(e);
 	})
 	.always(function ajaxAlwaysDoThis(data) {
 		// Always do

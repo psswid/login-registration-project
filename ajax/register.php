@@ -37,7 +37,8 @@
     //Return the proper information back to JS to redirect user
 
     $return['name'] = 'me';
-    echo json_encode($return, JSON_PRETTY_PRINT); exit;
+    echo json_encode($return, JSON_PRETTY_PRINT);
+    exit;
   }else{
     //Die. Kill script, redirect user.
     exit('test');
